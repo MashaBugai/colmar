@@ -1,0 +1,407 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header, p {
+    font-size: 20px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    opacity: 0.85;
+}
+
+#logo img {
+    height: 40px;
+}
+
+#logo span {
+    font-weight: 900;
+}
+
+#logo .part-2 {
+    font-weight: 100;
+}
+
+#menu {
+    padding: 0 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    color: black;
+    opacity: 0.85;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-flex;
+    margin-left: 16px;
+}
+
+.first {
+    margin-top: 64px;
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+}
+
+.banner {
+    display: flex;
+    width: 60%;
+    padding-right: 24px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text_banner {
+    box-sizing: border-box;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.text_banner h1 {
+    font-size: 57px;
+    opacity: 0.82;
+    line-height: 74px;
+    margin-bottom: 20px;
+}
+
+.text_banner h3 {
+    font-size: 32px;
+    font-weight: 400;
+    opacity: 0.85;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+
+.text_banner .button {
+    background: #ffb329;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_banner .button span {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second {
+    display: flex;
+    margin-bottom: 32px;
+    padding: 32px 24px;
+}
+
+
+.second .block1 {
+    padding-right: 24px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e5e5e5;
+}
+
+.block1 img {
+    width: 100%;
+}
+
+.block__style h2 {
+    font-size: 50px;
+    opacity: 0.82;
+}
+
+.block1 h2 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.block1 h4 {
+    font-size: 24px;
+    opacity: 0.60;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+.block1 h3 {
+    font-size: 20px;
+    opacity: 0.75;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.block2 {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.block2 .post {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.block2 .post:last-child {
+    border-bottom: none;
+}
+
+.block2 img {
+    width: 35%;
+    padding: 16px;
+    height: auto;
+}
+
+.block2 span {
+    color: cornflowerblue;
+}
+
+.block2 h4 {
+    font-size: 24px;
+    opacity: 0.60;
+    line-height: 34px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.block2 h3 {
+    font-size: 32px;
+    opacity: 0.82;
+    font-weight: 500;
+}
+
+.third {
+    background-color: antiquewhite;
+}
+
+.posts {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 72px;
+}
+
+.start{
+    padding-top: 32px;
+    text-align: center;
+}
+
+.text_post h2 {
+    font-size: 28px;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+.text_post h3 {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.60;
+    margin: 8px 0;
+}
+
+.text_post h4 {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.60;
+    line-height: 35px;
+}
+
+.posts .post_third {
+    margin-right: 32px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc((100% - 64px)/3);
+}
+
+.posts .post_third:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.post_third:hover {
+    background: #ffcd71;
+}
+
+.post_third img {
+    width: 100%;
+}
+
+.text_post {
+    padding: 16px 16px 24px 16px;
+}
+
+.thesis {
+    padding-top: 32px;
+    text-align: center;
+}
+
+.four_posts_1 {
+    padding-right: 24px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.four_posts {
+    display: flex;
+    padding: 32px 24px;
+}
+
+.four_posts .post {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.four_posts_2{
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.four_posts_2 .post {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.text_1 h3 {
+    font-size: 32px;
+    opacity: 0.82;
+    font-weight: 500;
+}
+.text_1 h4 {
+    font-size: 24px;
+    opacity: 0.60;
+    line-height: 34px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.text_2 h3 {
+    font-size: 32px;
+    opacity: 0.82;
+    font-weight: 500;
+}
+.text_2 h4 {
+    font-size: 24px;
+    opacity: 0.60;
+    line-height: 34px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.four_posts_2 img {
+   width: 35%;
+   padding: 16px;
+   height: auto;
+}
+
+.four_posts_1 h2 {
+    font-size: 32px;
+    opacity: 0.82;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.four_posts_1 h4 {
+    font-size: 24px;
+    opacity: 0.60;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+footer {
+    padding: 16px 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:focus, a:hover {
+    color: #ffb329;
+}
+
+.post:hover {
+    background: #e5e5e5;
+}
+
+.button:hover {
+    background: #ffa400;
+    color: black;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .first h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .first h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .first h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .first h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header ul {
+         display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .first {
+       flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner, .text_banner {
+        width: 100%;
+    }
+}
